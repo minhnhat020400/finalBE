@@ -1,0 +1,25 @@
+{
+  "name": "backendwebfim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "alternative-flavor.js",
+  "scripts": {
+    "start": "nodemon express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "googleapis": "^95.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.3",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

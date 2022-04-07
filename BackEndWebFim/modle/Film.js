@@ -1,0 +1,32 @@
+const mongoose= require('mongoose')
+const FilmSchema= mongoose.Schema({
+    nameMovie:String,
+    Discription:String,
+    time:String,
+    rate:{
+        type:String,
+        default:"0",
+    },
+    viewNunber:{
+        type:String,
+        default:"0",
+    },
+    rateNumber:{
+        type:String,
+        default:"0",
+    },
+    minimumAge:{
+        type:String,
+        default:'14+',
+    },
+    quality:String,
+    createOn:{
+        type:Date,
+        default:Date.now
+    },
+    poster:String,
+    videoLink:String,
+    trailerLink:String,
+    category:String,
+})
+module.exports=mongoose.model('film',FilmSchema)
